@@ -28,9 +28,9 @@ with open('extracted', 'r') as ext:
                 ext_nums.writelines(str(a) + line[sp:])
 
 def makeNewFile(lines, c):
-    folderName = 'Right2Left2'
+    folderName = 'IdleZin'
     #os.makedirs(folderName)
-    with open(folderName+'/testfile' + str(c+41), 'w') as newf:
+    with open(folderName+'/testfile' + str(c+14), 'w') as newf:
         newf.writelines(lines)
 
 def split_file_by_space(f):

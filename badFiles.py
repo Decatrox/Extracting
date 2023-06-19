@@ -1,6 +1,6 @@
 import os
 
-directory = 'Right2Left2/'
+directory = 'IdleACW/'
 
 for filename in os.listdir(directory):
     filepath = os.path.join(directory, filename)
